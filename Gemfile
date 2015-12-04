@@ -34,8 +34,10 @@ gem 'puma'
 # Twitter bootstrap
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
-# Devise
+# Devise and Omniauth
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 
 
