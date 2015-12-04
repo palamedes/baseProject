@@ -1,0 +1,19 @@
+# Example for creating your config/database.yml
+default: &default
+  adapter: postgresql
+  encoding: utf-8
+  pool: 5
+
+development:
+  <<: *default
+  database: example_development
+  user:
+  password:
+  lost: localhost
+
+test:
+  <<: *default
+  database: example_test
+  user:
+  password:
+  lost: localhost
