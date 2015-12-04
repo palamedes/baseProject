@@ -38,7 +38,9 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
-
+# Rolify and Cancancan
+gem "rolify"
+gem 'cancancan', '~> 1.10'
 
 
 group :development, :test do
