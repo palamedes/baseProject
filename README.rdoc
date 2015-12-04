@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The purpose of this repo is to give me a baseline application built the way I like it so that I can easily and rapidly start work on a new project.
 
-Things you may want to cover:
+Rough Instructions:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+  * Clone repo and copy it to your new directory structure
+  * delete old .git directory in report
+  * `git init`
+  * Rename base Module in /config/application.rb
+  * Copy database.yml.dist to database.yml and update db names
+  * Copy .env.dist to .env and update with env settings
+  * `bundle install`
+  * `gem install foreman`
+  * `foreman run rake db:create db:migrate db:seed`
+  * `foreman start`
+  * Make do cool new things.
