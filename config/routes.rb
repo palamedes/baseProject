@@ -19,6 +19,15 @@ Rails.application.routes.draw do
                  sign_up:       "signup"
              }
 
+  namespace :administration do
+    get :index
+  end
+
+
+
   root "home#index"
+
+
+
 
 end
